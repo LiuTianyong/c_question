@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/datastruct/q17/main.c
+stdio.h
+-
+stdlib.h
+E:/datastruct/q17/stdlib.h
+math.h
+E:/datastruct/q17/math.h
+
