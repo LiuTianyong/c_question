@@ -15,14 +15,15 @@ int main() {
             "djf99999999999525114jdl"
     };
 
-    char max[5][81];
-    fun(a,5,*max);
+    char *max;
+    fun(a,5,&max);
     return 0;
 }
 
 void fun(char (*a)[81],int num,char **max){
     int maxlen = strlen(a[0]);
 
+    *max = a[0];
     for (int i = 0; i < num; ++i) {
         if(strlen(a[i]) >  maxlen){
             *max = a[i];
