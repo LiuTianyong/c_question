@@ -5,10 +5,11 @@ float fun(float f);
 
 int main() {
 
-    float a = 1234.567;
+    float a = 1234.567f;
 
+    printf("%f",a);
     float res = fun(a);
-    printf("%f", res);
+    printf("\n%f", res);
     return 0;
 }
 

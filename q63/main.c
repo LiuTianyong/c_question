@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+
+void fun(int a,int b,long *c);
+
+int main() {
+
+    long c;
+    fun(45,12,&c);
+    printf("%ld", c);
+    return 0;
+}
+
+void fun(int a,int b,long *c){
+    int ag = a % 10;
+    int as = a / 10;
+    int bg = b % 10;
+    int bs = b / 10;
+
+    *c = as * 1000 + ag * 10 + bs + bg * 100;
+}

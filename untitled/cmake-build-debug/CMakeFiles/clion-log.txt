@@ -1,0 +1,13 @@
+"D:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" E:\c_question\untitled
+CMake Error at D:/Program Files/JetBrains/CLion 2021.2.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeDetermineCUDACompiler.cmake:174 (message):
+  Failed to find nvcc.
+
+  Compiler requires the CUDA toolkit.  Please set the CUDAToolkit_ROOT
+  variable.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "E:/c_question/untitled/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "E:/c_question/untitled/cmake-build-debug/CMakeFiles/CMakeError.log".
