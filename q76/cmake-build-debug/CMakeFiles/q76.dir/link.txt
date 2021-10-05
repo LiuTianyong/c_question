@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\q76.dir/objects.a
+D:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\q76.dir/objects.a @CMakeFiles\q76.dir\objects1.rsp
+D:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\q76.dir/objects.a -Wl,--no-whole-archive -o q76.exe -Wl,--out-implib,libq76.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\q76.dir\linklibs.rsp
