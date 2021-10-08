@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/c_question/q88_zt_huiwenstr/main.c
+stdio.h
+-
+stdlib.h
+E:/c_question/q88_zt_huiwenstr/stdlib.h
+string.h
+E:/c_question/q88_zt_huiwenstr/string.h
+

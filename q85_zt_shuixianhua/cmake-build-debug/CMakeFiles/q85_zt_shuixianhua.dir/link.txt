@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\q85_zt_shuixianhua.dir/objects.a
+D:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\q85_zt_shuixianhua.dir/objects.a @CMakeFiles\q85_zt_shuixianhua.dir\objects1.rsp
+D:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\q85_zt_shuixianhua.dir/objects.a -Wl,--no-whole-archive -o q85_zt_shuixianhua.exe -Wl,--out-implib,libq85_zt_shuixianhua.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\q85_zt_shuixianhua.dir\linklibs.rsp
