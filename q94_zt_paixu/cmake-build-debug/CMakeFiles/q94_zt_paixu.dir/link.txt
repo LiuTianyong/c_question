@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\q94_zt_paixu.dir/objects.a
+D:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\q94_zt_paixu.dir/objects.a @CMakeFiles\q94_zt_paixu.dir\objects1.rsp
+D:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\q94_zt_paixu.dir/objects.a -Wl,--no-whole-archive -o q94_zt_paixu.exe -Wl,--out-implib,libq94_zt_paixu.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\q94_zt_paixu.dir\linklibs.rsp
