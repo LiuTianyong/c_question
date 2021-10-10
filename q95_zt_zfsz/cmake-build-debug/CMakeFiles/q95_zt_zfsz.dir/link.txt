@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\q95_zt_zfsz.dir/objects.a
+D:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\q95_zt_zfsz.dir/objects.a @CMakeFiles\q95_zt_zfsz.dir\objects1.rsp
+D:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\q95_zt_zfsz.dir/objects.a -Wl,--no-whole-archive -o q95_zt_zfsz.exe -Wl,--out-implib,libq95_zt_zfsz.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\q95_zt_zfsz.dir\linklibs.rsp
