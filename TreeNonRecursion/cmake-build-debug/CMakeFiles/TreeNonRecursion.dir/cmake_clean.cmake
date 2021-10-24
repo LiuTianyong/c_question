@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TreeNonRecursion.dir/main.c.obj"
-  "TreeNonRecursion.exe"
-  "TreeNonRecursion.exe.manifest"
+  "CMakeFiles/TreeNonRecursion.dir/main.c.o"
+  "TreeNonRecursion"
   "TreeNonRecursion.pdb"
-  "libTreeNonRecursion.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
