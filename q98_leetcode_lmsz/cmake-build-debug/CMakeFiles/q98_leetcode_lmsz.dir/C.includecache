@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tianyongliu/workspace/clanguage/c_question/q98_leetcode_lmsz/main.c
+stdio.h
+-
+string.h
+/Users/tianyongliu/workspace/clanguage/c_question/q98_leetcode_lmsz/string.h
+stdlib.h
+/Users/tianyongliu/workspace/clanguage/c_question/q98_leetcode_lmsz/stdlib.h
+
