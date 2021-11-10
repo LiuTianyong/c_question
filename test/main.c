@@ -2,15 +2,20 @@
 #include "string.h"
 
 
-sub(char x,char y){
-    int z;
-    z = x%y;
-    return z;
-}
+
 int main() {
 
-    int g = 5,h=3,k;
-    k= sub(g,h);
-    printf("%d",k);
+    /*
+     * a 1 1 1 1  1 1 1 1
+     * b 0 0 0 0  0 0 0 1
+     * <<0 0 0 1  0 0 0 0
+     * & 0 0 0 1  0 0 0 0
+     * ~ 1 1 1 0  1 1 1 1
+     */
+    unsigned char a=0xff,b=0x01,c;
+    b=b<<4;
+    printf("%d\n",b);
+    c=~(a&b);
+    printf("%d",c);
     return 0;
 }
