@@ -1,0 +1,3 @@
+/Users/tianyongliu/workspace/clanguage/c_question/q101_wd_nixu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tianyongliu/workspace/clanguage/c_question/q101_wd_nixu/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tianyongliu/workspace/clanguage/c_question/q101_wd_nixu/cmake-build-debug/CMakeFiles/q101_wd_nixu.dir
