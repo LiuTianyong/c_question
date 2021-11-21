@@ -5,17 +5,24 @@
 
 int main() {
 
-    /*
-     * a 1 1 1 1  1 1 1 1
-     * b 0 0 0 0  0 0 0 1
-     * <<0 0 0 1  0 0 0 0
-     * & 0 0 0 1  0 0 0 0
-     * ~ 1 1 1 0  1 1 1 1
-     */
-    unsigned char a=0xff,b=0x01,c;
-    b=b<<4;
-    printf("%d\n",b);
-    c=~(a&b);
-    printf("%d",c);
+   float x = 10.0f,y;
+
+//   y  = int(x) / 10;
+//   y = (-x)++;
+
+    y = x+(y=3);
+
+    char a[] = "hello!";
+    char b[20] = {'h','e','l','l','o','!'};
+    printf("%d %d\n",sizeof(a),sizeof (b));
+
+    char c[ ]="\xah0\0y\"AB";
+    int i;
+    i=0; while(c[i]!=0) {
+        printf("%c\t",c[i]);
+        i++;
+    }
+    printf("%d\n",i);
+    printf("%x",0);
     return 0;
 }
